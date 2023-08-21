@@ -8,6 +8,20 @@ header {
     background-color: white;
 }
 
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.color-logo {
+    color: #2e2f42;
+}
+
 .hello {
     height: 600px;
     width: 100%;
