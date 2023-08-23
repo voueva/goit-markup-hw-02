@@ -22,7 +22,7 @@ header {
     font-family: Raleway, sens-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.17; /*  line-height / font-size = 21px / 18px */
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -30,6 +30,24 @@ header {
 
 .italic-text {
     color: #2e2f42;
+}
+
+.menu-item {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.menu-link {
+    color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
 }
 
 .welcome-section {
