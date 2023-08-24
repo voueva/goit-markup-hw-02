@@ -84,3 +84,16 @@ header {
 .order-button:focus {
     background-color: #404BBF;
 }
+
+.slogan-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.slogan-item-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
