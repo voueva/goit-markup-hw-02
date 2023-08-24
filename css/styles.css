@@ -92,7 +92,8 @@ header {
 }
 
 .slogan-item-description, 
-.portfolio-item-description {
+.portfolio-item-description,
+.footer-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -129,4 +130,14 @@ header {
     color: #2e2f42;
 }
 
+.footer {
+    background-color: #2e2f42;
+}
 
+.footer .italic-text {
+    color: #f4f4fd;
+}
+
+.footer-description {
+    color: #F4F4FD;
+}
