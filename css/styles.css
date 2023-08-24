@@ -22,11 +22,11 @@ header {
 
 .logotype {
     color: #4D5AE5;
-    font-family: Raleway, sens-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; /*  line-height / font-size = 21px / 18px */
-    letter-spacing: -0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -47,10 +47,13 @@ header {
     color: #404BBF;
 }
 
+.contact {
+    font-style: normal
+}
+
 .contact-link {
     color: #434455;
     font-weight: 400;
-    font-style: normal;
 }
 
 .welcome-section {
