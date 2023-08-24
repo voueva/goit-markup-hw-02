@@ -7,6 +7,10 @@ body {
 
 .link {
     text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
 }
 
 .list {
@@ -23,7 +27,7 @@ header {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; /*  line-height / font-size = 21px / 18px */
-    letter-spacing: 0.54px;
+    letter-spacing: -0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -32,22 +36,22 @@ header {
     color: #2e2f42;
 }
 
-.menu-item {
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
-
 .menu-link {
-    color: #2E2F42;
+    color: #2E2F42;   
+    font-weight: 500;
 }
 
 .menu-link:hover,
-.menu-link:focus {
+.menu-link:focus,
+.contact-link:hover,
+.contact-link:focus {
     color: #404BBF;
+}
+
+.contact-link {
+    color: #434455;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .welcome-section {
