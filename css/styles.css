@@ -43,7 +43,9 @@ header {
 .menu-link:hover,
 .menu-link:focus,
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus,
+.order-button:hover,
+.order-button:focus {
     color: #404BBF;
 }
 
@@ -80,12 +82,8 @@ header {
     cursor: pointer;
 }
 
-.order-button:hover,
-.order-button:focus {
-    background-color: #404BBF;
-}
-
-.slogan-title {
+.slogan-title,
+.portfolio-item-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -93,7 +91,8 @@ header {
     color: #2e2f42;
 }
 
-.slogan-item-description {
+.slogan-item-description, 
+.portfolio-item-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -120,3 +119,14 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+
