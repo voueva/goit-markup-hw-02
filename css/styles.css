@@ -44,8 +44,8 @@ header {
 .menu-link:focus,
 .contact-link:hover,
 .contact-link:focus,
-.order-button:hover,
-.order-button:focus {
+.goal-button:hover,
+.goal-button:focus {
     color: #404BBF;
 }
 
@@ -70,7 +70,7 @@ header {
     letter-spacing: 0.02em;
 }
 
-.order-button {
+.goal-button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
