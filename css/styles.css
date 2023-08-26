@@ -78,12 +78,9 @@ header {
     cursor: pointer;
 }
 
-.goalbutton:hover {
-    color: #404BBF;
-}
-
+.goalbutton:hover,
 .goalbutton:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .slogan-title,
