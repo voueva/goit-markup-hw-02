@@ -78,7 +78,10 @@ header {
     cursor: pointer;
 }
 
-.goalbutton:hover,
+.goalbutton:hover {
+    color: #404BBF;
+}
+
 .goalbutton:focus {
     color: #404BBF;
 }
