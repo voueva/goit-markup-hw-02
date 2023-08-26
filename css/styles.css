@@ -43,9 +43,7 @@ header {
 .menu-link:hover,
 .menu-link:focus,
 .contact-link:hover,
-.contact-link:focus,
-.goal-button:hover,
-.goal-button:focus {
+.contact-link:focus {
     color: #404BBF;
 }
 
@@ -63,22 +61,26 @@ header {
     color: white;
 }
 
-.welcometitle {
+.welcome-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 }
 
-.goal-button {
+.goalbutton {
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+}
+
+.goalbutton:hover,
+.goalbutton:focus {
+    color: #404BBF;
 }
 
 .slogan-title,
